@@ -1,5 +1,6 @@
 // Make sure to import the Passport config:
 var passport = require("../config/passport");
+const User = require('../models/user')
 
 module.exports = function (app) {
   // Using the passport.authenticate middleware with our local strategy.
